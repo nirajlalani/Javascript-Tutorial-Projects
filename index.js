@@ -50,4 +50,68 @@
 // console.log("The value of a*b is",a*b)
 // console.log("The value of a/b is",a/b)
 
-//Assignment Operators
+// Assignment Operators
+// var c = b;
+// c += 2;
+// c -= 2; // c = c - 2;
+// c *= 2;
+// c /= 2;
+// console.log(c);
+
+// Comparison Operators
+// var x = 34;
+// var y = 56;
+// console.log(x == y);
+// console.log(x >= y);
+// console.log(x <= y);
+// console.log(x > y);
+// console.log(x < y);
+
+// Logical Operators
+
+// Logical and
+// console.log(true && true)
+// console.log(true && false)
+// console.log(false && true)
+// console.log(false && false)
+
+// Logical or
+// console.log(true || true)
+// console.log(true || false)
+// console.log(false || true)
+// console.log(false || false)
+
+// Logical not
+// console.log(!false);
+// console.log(!true);
+
+// Function in JavaScript
+// function avg(a, b) {
+//     c = (a + b) / 2;
+//     return c;
+// }
+// c1 = avg(4, 6);
+// c2 = avg(14, 16);
+// console.log(c1, c2);
+
+// Conditionals in JavaScript
+// var age = 41;
+// if(age > 18){
+//     console.log("You are an adult");
+// }
+
+// if(age > 18){
+//     console.log("You are an adult");
+// }
+// else{
+//     console.log("You are not an adult");
+// }
+
+var arr = [1, 2, 3, 4, 5, 6, 7];
+console.log(arr);
+for(var i=0;i<arr.length;i++){
+    if(i==2){
+        break;
+    }
+    console.log(arr[i])
+}
